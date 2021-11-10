@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/diwaliChallenge/static/css/main.34aaaada.chunk.css",
+    "main.js": "/diwaliChallenge/static/js/main.97feca35.chunk.js",
+    "main.js.map": "/diwaliChallenge/static/js/main.97feca35.chunk.js.map",
+    "runtime-main.js": "/diwaliChallenge/static/js/runtime-main.0437344b.js",
+    "runtime-main.js.map": "/diwaliChallenge/static/js/runtime-main.0437344b.js.map",
+    "static/js/2.699539d5.chunk.js": "/diwaliChallenge/static/js/2.699539d5.chunk.js",
+    "static/js/2.699539d5.chunk.js.map": "/diwaliChallenge/static/js/2.699539d5.chunk.js.map",
+    "static/js/3.ce7e8067.chunk.js": "/diwaliChallenge/static/js/3.ce7e8067.chunk.js",
+    "static/js/3.ce7e8067.chunk.js.map": "/diwaliChallenge/static/js/3.ce7e8067.chunk.js.map",
+    "index.html": "/diwaliChallenge/index.html",
+    "static/css/main.34aaaada.chunk.css.map": "/diwaliChallenge/static/css/main.34aaaada.chunk.css.map",
+    "static/js/2.699539d5.chunk.js.LICENSE.txt": "/diwaliChallenge/static/js/2.699539d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0437344b.js",
+    "static/js/2.699539d5.chunk.js",
+    "static/css/main.34aaaada.chunk.css",
+    "static/js/main.97feca35.chunk.js"
+  ]
+}
