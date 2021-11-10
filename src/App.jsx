@@ -12,20 +12,29 @@ const App = () => {
   }
 
   const [advice, setAdvice] = useState(null);
+  // useEffect(() => {
+  //   fetch('https://api.adviceslip.com/advice')
+  //     .then(res => res.json())
+  //     .then(data => { console.log(data); setAdvice(data); })
+  //     .catch(err => console.log(err))
+  // }, [isTrue]);
+
+  async function loadUsingAsyncAwait() {
+    const result = await fetch('https://api.adviceslip.com/advice');
+    const json = await result.json();
+    setAdvice(json);
+  }
   useEffect(() => {
-    fetch('https://api.adviceslip.com/advice')
-      .then(res => res.json())
-      .then(data => { console.log(data); setAdvice(data); })
-      .catch(err => console.log(err))
+    loadUsingAsyncAwait();
   }, [isTrue]);
 
   const [countryData,setCountryData] = useState(null);
   useEffect(() => {
     
-    fetch('http://api.worldbank.org/v2/country/ind?format=json')
+    fetch('http://api.worldbank.org/v2/country/?format=json')
     .then(res => res.json())
     .then(data => {
-      console.log(data);
+      console.log("data", data);
       setCountryData(data[1])
       console.log("now data is: ",data[1]);
     })
@@ -46,7 +55,7 @@ const App = () => {
           Get Country Details
       </button> */}
         {/* {countryData && <h1>{countryData[0].name}</h1>}   */}
-        {countryData && <Country data={countryData[0]} />}
+        {countryData && countryData.map(country => <Country data={country} />)}
       </section>
 
       

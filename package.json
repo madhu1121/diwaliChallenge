@@ -2,7 +2,7 @@
   "name": "diwali-react-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://madhu1121.github.io/diwaliChallenge",
+  "homepage": "https://madhu1121.github.io/diwaliChallenge",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
