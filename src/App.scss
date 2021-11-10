@@ -1,0 +1,17 @@
+.section{
+  background-color: aqua;
+  height: 150px;
+  width: auto;
+  text-align: center;
+  color: blue;
+  margin: 5px 5px;
+  
+
+  &__button{
+    border-radius: 10px;
+    border: 2px whitesmoke solid;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
